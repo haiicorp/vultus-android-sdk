@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 적응형 아이콘 배경. **모서리를 둥글게 하지 않는다** — 시스템이 마스크를 씌우므로
+     레이어는 108dp 를 꽉 채워야 한다. 여기서 둥글리면 이중으로 깎인다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:startX="54" android:startY="0"
+                      android:endX="54" android:endY="108" android:type="linear">
+                <item android:color="#FF3CB38D" android:offset="0.0" />
+                <item android:color="#FF2D8A6E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

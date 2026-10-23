@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vultus Sample</string>
+
+    <string name="permission_request_msg">"권한 요청"</string>
+    <string name="agree_msg">"동의"</string>
+    <string name="reject_msg">"거부"</string>
+    <string name="setting_msg">"설정"</string>
+    <string name="one_more_back_msg">"[뒤로] 버튼을 한번 더 누르시면 종료됩니다."</string>
+    <string name="rational_msg">"이 앱은 카메라를 사용이 필수적입니다. 사용하시려면 권한을 동의해주세요.\n\n\n[취소]시 앱이 종료됩니다."</string>
+    <string name="setting_help_msg">"권한 요청 알람이 표시되지 않았다면\n\n[설정] 버튼을 누르고 권한을 허용한 후,\n\n앱을 다시 시작해주세요."</string>
+</resources>

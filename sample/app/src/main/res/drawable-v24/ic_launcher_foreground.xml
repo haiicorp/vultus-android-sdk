@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 적응형 아이콘 전경. 마크는 **원형 마스크(지름 66dp) 안**에 들어와야 한다 —
+     원본(512 캔버스)을 그대로 옮기면 맥파 양끝이 잘린다. 0.157 배로 줄여 중앙에 둔다. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 알파벳 V (뒤) -->
+    <path android:pathData="M41.44,39.87 L54.0,68.13 L66.56,39.87"
+        android:strokeColor="#FF256252" android:strokeAlpha="0.4"
+        android:strokeWidth="8.79" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:fillColor="#00000000" />
+    <!-- PPG 맥파 (앞).
+         배경이 초록 계열이라 **파랑을 밝게 올려야 갈린다** — 원래 색(#FF2B92D4)은
+         명도가 배경과 가까워 런처 크기에서 마크가 하나로 뭉쳐 보였다. -->
+    <path android:pathData="M28.88,54.94 L45.21,54.94 L49.92,64.99 L58.08,44.89 L62.79,54.94 L79.12,54.94"
+        android:strokeColor="#FF54C8FF"
+        android:strokeWidth="4.4" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:fillColor="#00000000" />
+</vector>
